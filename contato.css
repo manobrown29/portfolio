@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;
+    background-color: #123f44;
+}
+
+
+.contato .img-ctt img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contato{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contato .num h1 {
+    color: #fff;
+}
+
+.contato .num p{
+    color: #fff;
+}
+
+.contato .num button{
+    color: #fff;
+}
+
+button{
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #d5be76;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 10px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #d5bd76e9;
+    transform: scale(1.05);
+}
